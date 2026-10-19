@@ -9,7 +9,6 @@
       content="Marta tworzy naturalne materiały UGC dla marek outdoorowych, wellness i aktywnego stylu życia."
     />
     <title>Marta — UGC creator | Outdoor, joga, podróże</title>
-    <link rel="preconnect" href="https://images.unsplash.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -59,8 +58,10 @@
         </div>
         <div class="hero-visual">
           <img
-            src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1500&q=85"
-            alt="Górski krajobraz o ciepłym, porannym świetle"
+            src="../assets/paterns/merino-stretch.jpg"
+            alt="Marta w odzieży merino rozciąga się przy namiocie w górskim kempingu"
+            width="1350"
+            height="1800"
             fetchpriority="high"
           />
           <div class="hero-stamp" aria-label="Tworzone z uważnością">
@@ -116,8 +117,10 @@
           <article class="project-card project-feature" data-category="outdoor">
             <div class="project-image image-tall">
               <img
-                src="https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1200&q=85"
-                alt="Wędrówka przez górski las"
+                src="../assets/paterns/alpine-look-01.jpg"
+                alt="Marta w czapce Paterns na alpejskim szlaku"
+                width="1200"
+                height="1600"
                 loading="lazy"
               />
               <span class="play-badge" aria-hidden="true">↗</span
@@ -128,11 +131,11 @@
                 <span class="project-type">WSPÓŁPRACA · MERINO / OUTDOOR</span>
                 <h3 id="projekt-merino">Ciepło, które idzie z Tobą.</h3>
               </div>
-              <span class="project-arrow" aria-hidden="true">↗</span>
+              <a class="project-arrow" href="#case-paterns" aria-label="Zobacz case Paterns">↗</a>
             </div>
             <p class="project-description">
               Warstwy merino w rytmie prawdziwej wyprawy. Materiał pokazuje produkt w użyciu — od
-              porannego startu po ostatnie światło na szlaku.
+              porannego stretchingu przy namiocie po górski szlak.
             </p>
           </article>
           <article class="project-card project-yoga" data-category="wellness">
@@ -203,8 +206,70 @@
           </article>
         </div>
         <p class="stock-note">
-          Zdjęcia poglądowe ze stocka. Zastąpimy je autorskimi materiałami Marty przed publikacją.
+          Pierwszy case pokazuje materiały zrealizowane dla Paterns. Pozostałe projekty są na razie
+          wizualnymi konceptami.
         </p>
+      </section>
+
+      <section class="case-study section-wrap" id="case-paterns" aria-labelledby="case-title">
+        <div class="case-heading">
+          <div>
+            <p class="eyebrow">CASE STUDY · WSPÓŁPRACA BARTEROWA</p>
+            <h2 id="case-title">Paterns <em>w drodze.</em></h2>
+          </div>
+          <p>
+            Wyprawa, kemping, górski szlak. Zdjęcia i krótkie wideo pokazują produkt w codziennym
+            użyciu.
+          </p>
+        </div>
+        <div class="case-video">
+          <video
+            controls
+            loading="lazy"
+            width="1080"
+            height="1920"
+            poster="../assets/paterns/merino-stretch.jpg"
+            preload="none"
+            aria-label="Przykładowe wideo UGC z odzieżą Paterns w alpejskim plenerze"
+          >
+            <source src="../assets/paterns/paterns-outdoor-sample.mov" type="video/quicktime" />
+            Twoja przeglądarka nie odtwarza tego formatu wideo.
+            <a href="../assets/paterns/paterns-outdoor-sample.mov">Otwórz wideo osobno</a>.
+          </video>
+          <span class="case-video-label">WIDEO UGC · MERINO NA SZLAKU</span>
+        </div>
+        <div class="case-gallery" role="group" aria-label="Zdjęcia z kampanii Paterns">
+          <figure>
+            <img
+              src="../assets/paterns/alpine-look-02.jpg"
+              alt="Marta w czapce i odzieży Paterns na tle alpejskich szczytów"
+              width="1200"
+              height="1600"
+              loading="lazy"
+            />
+            <figcaption>Produkt w podróży</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="../assets/paterns/alpine-look-03.jpg"
+              alt="Marta poprawia czapkę Paterns z górską miejscowością w tle"
+              width="1200"
+              height="1600"
+              loading="lazy"
+            />
+            <figcaption>Markowe detale w naturalnym kadrze</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="../assets/paterns/alpine-look-04.jpg"
+              alt="Marta na górskim szlaku w odzieży merino Paterns"
+              width="1200"
+              height="1600"
+              loading="lazy"
+            />
+            <figcaption>Merino podczas aktywnego dnia</figcaption>
+          </figure>
+        </div>
       </section>
 
       <section class="about" id="o-mnie" aria-labelledby="about-title">
